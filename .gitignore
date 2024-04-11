@@ -1,2 +1,29 @@
-.vscode
-*.class 
+# Compiled class file
+*.class
+
+# Log files
+*.log
+
+# IDE-specific files
+.vscode/
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+
+# Gradle specific
+.gradle/
+build/
+
+# Maven specific
+target/
+*.jar
+
+# Spring Boot specific
+!application.yml
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
